@@ -12,7 +12,7 @@ import {
 import AppLayout from "./pages/AppLayout";
 
 import { theme, resources, sounds } from "./settings";
-// the fllwing fllwing to 
+
 const App = () => {
   return <ThemeProvider theme={createTheme(theme)}>
     <SoundsProvider sounds={createSounds(sounds)}>
